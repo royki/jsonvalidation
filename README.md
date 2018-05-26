@@ -1,7 +1,7 @@
 ##### _Prerequisite_
 - `scala 2.12.4`
 - `sbt 1.1.1`
-- OS - `Linux/Ubuntu 16.04`
+- OS:`Linux/Ubuntu 16.04`
 
 ##### _Library_
 - `play-json`
@@ -10,14 +10,14 @@
 ##### _Json Schema Validation_
 - `SchemaJSON.scala` represents schema model of the json data
 - `ValidateJSON.scala` validation of schema model
-- `ReadJSON` read json files from resource or url
+- `ReadJSON.scala` read json files from resource or url
 
 - If validation is success it will print a Success message
 - If validation failed, it will print a Error message with error values.
 
 ##### _Launch the Execution_
 - Run
-    + `sbt run`
+    + `sbt run` (it will download necessary librabry to execute the code)
 
 
 ##### _Expected Result_ 

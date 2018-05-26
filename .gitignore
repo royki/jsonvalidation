@@ -1,2 +1,13 @@
 *.class
 *.log
+*.txt
+*.log
+*.sh
+*.classpath     
+*.project       
+.settings/
+target/
+logs/
+bin/
+.cache*
+.history
